@@ -3,8 +3,6 @@ package com.ifive.muda;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 
 public class MudaActivity extends AppCompatActivity {
@@ -26,11 +24,6 @@ public class MudaActivity extends AppCompatActivity {
 
             @Override
             public void onPageScrolled(int i, float v, int i2) {
-                switch (i) {
-                    case 0:
-                        break;
-                    default:
-                }
             }
 
             @Override

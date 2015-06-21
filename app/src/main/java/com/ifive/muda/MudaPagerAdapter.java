@@ -25,11 +25,6 @@ public class MudaPagerAdapter extends FragmentStatePagerAdapter {
     }
 
     @Override
-    public int getItemPosition(Object object) {
-        return POSITION_NONE;
-    }
-
-    @Override
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
@@ -47,14 +42,7 @@ public class MudaPagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        Locale l = Locale.getDefault();
-        switch (position) {
-            case 0:
-                return "";
-            case 1:
-                return "";
-        }
-        return null;
+        return "";
     }
 
 }
